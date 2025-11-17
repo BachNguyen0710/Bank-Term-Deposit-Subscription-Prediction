@@ -19,14 +19,14 @@ Ensure you have Python installed. Then, install the required libraries:
 
 ```bash
 pip install -r requirements.txt
-
-2. View the Analysis
+```
+### 2. View the Analysis
 The best way to understand the project is to open and run the Jupyter Notebooks in the notebooks/ directory, in order from 01 to 04.
 
-3. Retrain Models
+### 3. Retrain Models
 You can retrain the models by running the scripts in the src/ directory:
 
-Bash
+```Bash
 
 # Train the baseline model
 python src/train_baseline.py
